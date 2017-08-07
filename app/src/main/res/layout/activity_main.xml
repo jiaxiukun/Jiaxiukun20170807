@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="baway.com.jiaxiukun20170807.MainActivity">
+
+    <baway.com.jiaxiukun20170807.MyButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#35B3FF"
+        android:text="返回" />
+
+    <baway.com.jiaxiukun20170807.MyTextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_weight="2"
+        android:background="#D3A337"
+        android:text="自定义标题"
+        android:textSize="25sp" />
+
+    <baway.com.jiaxiukun20170807.MyButton2
+        android:id="@+id/btn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#35B3FF"
+        android:text="更多" />
+
+</LinearLayout>
